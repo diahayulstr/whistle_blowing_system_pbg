@@ -1,0 +1,37 @@
+# Whistle Blowing System – Website Redesign
+
+Whistle blowing system (wbs) adalah sebuah sistem informasi yang biasa digunakan untuk melaporkan tindak pidana korupsi di instansi/organisasi, termasuk di Kab. Purbalingga, Jawa Tengah. WBS yang dimiliki oleh pemerintah Kab. Purbalingga, dibawah naungan oleh Dinas Kominfo (Komunikasi dan Informatika) dibuat untuk membantu masyarakat dan pegawai pemerintah melaporkan tindakan korupsi dan maladministrasi yang terjadi.
+
+## 🔍 Overview
+
+Proyek ini merupakan desain ulang situs web Whistle Blowing System yang sudah ada. Versi sebelumnya menggunakan templat WordPress dasar dengan fitur terbatas. Dilakukannya desain ulang antarmuka untuk meningkatkan pengalaman pengguna, aksesibilitas, dan alur pelaporan.
+
+## 🛠️ Tech Stack
+
+- HTML
+- CSS
+- Tailwind CSS
+- JavaScript
+- Laravel
+- MySQL
+- Figma (UI Desain)
+
+## 💡 Features
+
+- Panel admin untuk manajemen laporan
+- Responsif (mobile & desktop)
+- Form pelaporan
+- Login
+- Register account
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/diahayu/whistle-blowing-system.git
+cd whistle-blowing-system
+composer install
+npm install && npm run dev
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
